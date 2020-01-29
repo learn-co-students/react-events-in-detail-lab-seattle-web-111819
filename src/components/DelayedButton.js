@@ -5,7 +5,7 @@ import React, { Component } from 'react'
 
 class DelayedButton extends Component {
 
-    // STEP 1: 
+    // STEP 1: add event
     handleClick = (event) => {
         // can make the event persistent instead of asynchronous
         event.persist()
