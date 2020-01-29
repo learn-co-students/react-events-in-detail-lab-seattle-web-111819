@@ -15,7 +15,7 @@ class CoordinatesButton extends Component {
     render() {
         return (
         <div>
-        {/* STEP 2: add event handler  */}
+        {/* STEP 2: add button and event handler  */}
         <button onClick={this.handleClick}>Coordinates</button>
         </div>
         )

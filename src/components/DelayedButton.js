@@ -21,7 +21,7 @@ class DelayedButton extends Component {
     render() {
         return (
             <div>
-            {/* STEP 3: add event handler */}
+            {/* STEP 3: add button and event handler */}
                 <button onClick={this.handleClick}>Delayed</button>
             </div>
         )
